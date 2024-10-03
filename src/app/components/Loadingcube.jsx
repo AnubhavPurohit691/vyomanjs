@@ -41,7 +41,7 @@ const Loadingcube = () => {
     <Canvas style={{ height: '80vh', width: '100vw' }}>
       <ambientLight />
       <RotatingCube />
-      <OrbitControls enableZoom={false} /> {/* Allow rotation and zoom */}
+       {/* Allow rotation and zoom */}
     </Canvas>
   );
 };
