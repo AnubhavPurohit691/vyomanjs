@@ -11,7 +11,7 @@ const Mobilefront = () => {
     <div className='  w-screen h-[70%] lg:hidden object-contain '>
       <Loadingcube/>
       
-      <div  className={`flex gap-5  ml-20 md:ml-60 absolute text-center top-10 items-center justify-center flex-col h-screen text-xl  `}>
+      <div  className={`flex gap-5  ml-16 md:ml-60 absolute text-center top-10 items-center justify-center flex-col h-screen text-xl  `}>
       <motion.div
       initial={{opacity:0,y:-50}}
       animate={{opacity:1,y:0}}
