@@ -20,10 +20,10 @@ export default async function Home() {
     <Hemispherewithmolecules />
     </div>
     
-      <Providers>
-    <div className='fixed top-[65%] left-[93%] h-[30%] w-[30%] '>
+      {/* <Providers> */}
+    {/* <div className='fixed top-[65%] left-[93%] h-[30%] w-[30%] '>
     <ThemeSwitch/>
-    </div>
+    </div> */}
     <Mobilefront/>
       <div className="mt-[10vh] md:mt-20 lg:mt-[93vh]">
         <Companydescription />
@@ -33,7 +33,7 @@ export default async function Home() {
       
       </div>
       <Accordion />
-      <div className="flex mt-32 gap-4 ml-10 lg:ml-24  md:gap-4 xl:gap-6 2xl:ml-72 2xl:mt-40  md:ml-16">
+      <div className="flex mt-32 gap-4 ml-10 lg:ml-24  md:gap-4 xl:gap-6 2xl:ml-44 2xl:mt-40  md:ml-16">
   <div className="mt-2 h-3 w-3 md:h-5 md:w-5 xl:mt-3 xl:h-6 xl:w-6 xl:ml-24 rounded-full bg-black"></div>
   <div className="text-xl sm:text-2xl md:text-3xl xl:text-4xl font-light xl:pt-1">COLLOCATED STUDIES</div>
 </div>
@@ -42,11 +42,11 @@ export default async function Home() {
       <div className="mt-40 md:mt-10 md:ml-20 2xl:mt-20">
         <ResponsiveCarousel />
       </div>
-      </Providers>
-      <div className="2xl:ml-36">
+      {/* </Providers> */}
+      <div className="2xl:ml-36 2xl:pl-10">
         <ProfileCardList />
       </div>
-      <div className='mt-40 xl:mt-0'>
+      <div className='mt-40 xl:mt-0 2xl:mt-10'>
 
       <Contactus />
       </div>

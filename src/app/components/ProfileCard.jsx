@@ -53,7 +53,7 @@ const ProfileCard = ({ name, position, link, src }) => {
   return (
     <div className="flex h-64 mb-0 flex-col justify-between border-[1px] border-gray-200 md:h-80 lg:h-72 xl:h-[400px]">
       {/* Name and Position */}
-      <div className="flex justify-around gap-8 border-b-2 border-gray-200 p-4 pl-6 sm:gap-3 sm:pl-5 md:gap-8 md:pl-6 lg:justify-around lg:gap-4 lg:pl-4 xl:gap-8 2xl:gap-12 2xl:pl-12">
+      <div className="flex justify-around gap-8 border-b-2 border-gray-200 p-4 pl-6 sm:gap-3 sm:pl-5 md:gap-8 md:pl-6 lg:justify-around lg:gap-4 lg:pl-4 xl:gap-8 2xl:gap-20 2xl:pl-12">
         <h2 className="text-xs font-bold lg:text-sm xl:text-base xl:w-20">
           {name.toUpperCase()}
         </h2>
@@ -82,7 +82,7 @@ const ProfileCard = ({ name, position, link, src }) => {
           alt="Profile"
           className="h-32 w-32 rounded-full object-cover md:h-40 md:w-40 lg:mt-4 lg:h-40 lg:w-40 xl:h-60 xl:w-60"
         />
-        <div className="absolute bottom-1 right-28 flex h-6 w-6 items-center justify-center rounded-full bg-gray-400 sm:bottom-2 sm:right-20 md:bottom-1 md:right-22 md:h-8 md:w-8 lg:bottom-3 lg:right-12 lg:h-12 lg:w-12 xl:bottom-4 xl:right-20 xl:h-12 xl:w-12">
+        <div className="absolute bottom-1 right-28 flex h-6 w-6 items-center justify-center rounded-full bg-gray-400 sm:bottom-2 sm:right-20 md:bottom-1 md:right-22 2xl:bottom-4 2xl:left-80 md:h-8 md:w-8 lg:bottom-3 lg:right-12 lg:h-12 lg:w-12 xl:bottom-4 xl:right-20 xl:h-12 xl:w-12">
           <div className="">
             <Image src={whitearrow} alt="arrow" className='h-3 w-3'/>
           </div>

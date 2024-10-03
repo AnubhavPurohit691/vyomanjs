@@ -48,7 +48,7 @@ export default function ResponsiveCarousel() {
           />
         </div>
         <div className="absolute bottom-24 left-10 w-52 py-1 sm:w-60 sm:px-3 sm:py-1 md:bottom-0 md:left-6 md:w-80 lg:-left-40 lg:bottom-[5.2rem] lg:w-96 lg:border-b-[1px]
-        xl:bottom-[5.5rem] xl:-left-60 xl:w-[30rem] lg:border-black 2xl:-left-96 2xl:bottom-40 2xl:w-[40rem] 2xl:border-b-2 2xl:border-gray-400">
+        xl:bottom-[5.5rem] xl:-left-60 xl:w-[30rem] lg:border-black 2xl:-left-96 2xl:bottom-32 2xl:w-[40rem] 2xl:border-b-2 2xl:border-gray-400">
           <p className="text-center text-base font-semibold sm:text-sm md:text-xl lg:text-start lg:text-xl xl:text-2xl">
             {carouselItems[activeIndex].location}
           </p>
