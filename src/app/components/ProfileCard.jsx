@@ -53,14 +53,14 @@ const ProfileCard = ({ name, position, link, src }) => {
   return (
     <div className="flex h-64 mb-0 flex-col justify-between border-[1px] border-gray-200 md:h-80 lg:h-72 xl:h-[400px]">
       {/* Name and Position */}
-      <div className="flex justify-around gap-8 border-b-2 border-gray-200 p-4 pr-0 pl-0 sm:gap-3 sm:pl-5 md:gap-8 md:pl-6 lg:justify-around lg:gap-4 lg:pl-4 xl:gap-8 2xl:gap-20 2xl:pl-12">
+      <div className="flex justify-around gap-8 border-b-2 border-gray-200 p-4 pr-0 pl-3 sm:gap-3 sm:pl-5 md:gap-8 md:pl-6 lg:justify-around lg:gap-4 lg:pl-4 xl:gap-8 2xl:gap-20 2xl:pl-12">
         <h2 className="text-xs pl-2 md:pl-0 font-bold lg:text-sm xl:text-base xl:w-20">
           {name.toUpperCase()}
         </h2>
         <p className="ml-4 text-xs text-gray-500 sm:ml-0 lg:text-sm xl:text-base">
           {position.toUpperCase()}
         </p>
-        <div className="pr-10">
+        <div className="pr-3">
           <a
             href={link}
             className=" flex gap-2 rounded-full border-2 border-gray-400 p-4 py-2 pr-6 text-xs text-black hover:text-gray-700 sm:pr-3 md:px-4 md:py-2 md:pl-2 md:pb-2 lg:mr-4 lg:px-4 lg:py-2 lg:pr-6 lg:text-xs  xl:px-4 xl:py-2 xl:text-sm"
@@ -96,7 +96,7 @@ const ProfileCardList = () => {
   const [data] = useState(Profilecarddata);
 
   return (
-    <div className="container mx-auto  mt-[3rem] px-4  sm:mt-[10rem] sm:pl-10 sm:pr-10 md:pl-20 md:mt-[12rem] lg:ml-0 lg:mt-20 lg:pl-20 lg:pr-16 xl:mt-40 xl:pl-60 xl:pr-0 2xl:mt-0 2xl:pl-12 2xl:pt-0">
+    <div className="container mx-auto  mt-[3rem] px-4  sm:mt-[10rem] sm:pl-1 sm:pr-10 md:pl-20 md:mt-[12rem] lg:ml-0 lg:mt-20 lg:pl-20 lg:pr-16 xl:mt-40 xl:pl-60 xl:pr-0 2xl:mt-0 2xl:pl-12 2xl:pt-0">
       <div className="mb-5  flex gap-3 md:gap-7">
         <div className="mt-3 h-3 w-3 md:h-6 md:w-6 rounded-full bg-black"></div>
         <div className="text-xl font-light hover:underline md:text-4xl lg:text-3xl xl:pt-1 xl:text-4xl">
