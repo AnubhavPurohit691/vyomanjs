@@ -51,9 +51,9 @@ const Mobilefront = () => {
         <AnimatePresence>
           <motion.div
             key={activeIndex}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 1 }}
           >
             <div className='ml-20 justify-center' key={activeIndex}>
