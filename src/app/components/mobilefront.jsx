@@ -22,11 +22,11 @@ const molecules = [
   <Molecule5 key="molecule5" />,
 ];
 const description = [
-  <Image src={image1} alt='image'/>,
-  <Image src={image2} alt='image'/>,
-  <Image src={image3} alt='image'/>,
-  <Image src={image4} alt='image'/>,
-  <Image src={image5} alt='image'/>,
+  <Image src={image1} alt='image' key={"image1"}/>,
+  <Image src={image2} alt='image' key={"image2"}/>,
+  <Image src={image3} alt='image' key={"image3"}/>,
+  <Image src={image4} alt='image' key={"image4"}/>,
+  <Image src={image5} alt='image' key={"image5"}/>,
 ]
 
 const Mobilefront = () => {
