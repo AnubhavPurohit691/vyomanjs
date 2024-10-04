@@ -40,10 +40,10 @@ useGLTF.preload('/compressed.glb');
 
 const CompressedMolecule = () => {
   return (
-    <Canvas style={{}}>
-      <mesh scale={1}>
+    <Canvas style={{ width: '150px', height: '150px' }}>
+      <mesh scale={0.7}>
         <ambientLight />
-        <OrbitControls />
+        <OrbitControls enableZoom={false} />
         <Environment preset="studio" />
         <Model />
       </mesh>

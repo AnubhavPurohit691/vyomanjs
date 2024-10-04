@@ -4,15 +4,19 @@ import Fullsphere from './Contactusrotatingsphere';
 import FullScreenCube from './Hemispherewithmolecules/Hemisphere';
 import FooterCube from './Footercube';
 import Loadingcube from './Loadingcube';
+import ContactForm from './Contactusform';
 
 const Contactus = () => {
   return (
     <div className="relative md:h-[600px]">
       <div className='flex flex-col text-center pb-20 md:pb-0 gap-5 '>
 
-      <div className='text-4xl   xl:pt-0 md:mb-0 lg:hidden'>CONTACT US</div>
-      <div className='text-xl lg:hidden'>WS209, Central Workshop, IIT Delhi.</div>
-      <div className='text-xl lg:hidden'>vyomaniitd@gmail.com</div>
+      <div className='text-xl   xl:pt-0 md:mb-0 lg:hidden'>CONTACT US</div>
+      <div className='text-sm lg:hidden'>WS209, Central Workshop, IIT Delhi.</div>
+      <div className='text-sm lg:hidden'>vyomaniitd@gmail.com</div>
+      </div>
+      <div className='md:hidden'>
+      <ContactForm/>
       </div>
 
       <CircleForm />

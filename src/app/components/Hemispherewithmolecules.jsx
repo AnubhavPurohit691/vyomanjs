@@ -13,6 +13,11 @@ import image3d3 from '../assets/svg/moleculesdetail/3.svg';
 import image3d4 from '../assets/svg/moleculesdetail/4.svg';
 import image3d5 from '../assets/svg/moleculesdetail/5.svg';
 import { useState } from 'react';
+import Molecule1 from './Hemispherewithmolecules/Molecule1';
+import Molecule2 from './Hemispherewithmolecules/Molecule2';
+import Molecule3 from './Hemispherewithmolecules/Molecule3';
+import CompressedMolecule from './Hemispherewithmolecules/Molecule4';
+import Molecule5 from './Hemispherewithmolecules/Molecule5';
 
 const Hemispherewithmolecules = () => {
  const[description1,setdescription1]=useState(false)
@@ -39,48 +44,26 @@ const Hemispherewithmolecules = () => {
     <div className="relative ">
      
       <div
-        className={`absolute -top-20 hidden   lg:block  bg-gradient-to-b from-gray-400 via-gray-300 to-white  md:h-[100%] md:w-screen lg:h-[100vh] lg:w-full`}
+        className={`absolute -top-20 hidden   lg:block  bg-gradient-to-b from-gray-100 via-gray-100 to-white  md:h-[100%] md:w-screen lg:h-[100vh] lg:w-full`}
       >
         <Hemisphere />
       </div>
       <div
         className={`absolute h-20 hidden lg:block w-20 lg:w-full z-20 md:left-[32%] md:top-[20%] lg:left-[0%] xl:left-[0%] lg:top-[600px] xl:top-[600px] 2xl:top-[700px] 2xl:pl-40`} 
       >
-        <div className='flex flex-row lg:gap-20 xl:gap-40 h-40 w-full'>
-          <div className='flex-col lg:ml-60 xl:ml-80'>
-          <Image src={image3d1} alt='image' height={50} width={50} onClick={onhandleclick1} className=''/>
-          {description1&&(<div className=' h-80 justify-center items-center absolute lg:-top-96 lg:-left-20 xl:-top-80 xl:left-[30%] w-96  '>
-            <Image src={detailimage1} alt='image' className='ml-36' />
-        </div>)}
-          </div>
-          <div className='flex-col'>
-          <Image src={image3d2} alt='image' height={50} width={50} onClick={onhandleclick2} className=''/>
-          {description2&&(<div className=' h-80 justify-center items-center absolute -top-80 left-[30%] w-96  '>
-            <Image src={detailimage2} alt='image' className='ml-36' />
-        </div>)}
-          </div>
-          <div className='flex-col'>
-          <Image src={image3d3} alt='image' height={50} width={50} onClick={onhandleclick3} className=''/>
-          {description3&&(<div className=' h-80 justify-center items-center absolute -top-80 left-[30%] w-96  '>
-            <Image src={detailimage3} alt='image' className='ml-36' />
-        </div>)}
-          </div>
-          <div className='flex-col'>
-          <Image src={image3d4} alt='image' height={50} width={50} onClick={onhandleclick4} className=''/>
-          {description4&&(<div className=' h-80 justify-center items-center absolute -top-80 left-[30%] w-96  '>
-            <Image src={detailimage4} alt='image' className='ml-36' />
-        </div>)}
-          </div>
-          <div className='flex-col'>
-          <Image src={image3d5} alt='image' height={50} width={50} onClick={onhandleclick5} className=''/>
-          {description5&&(<div className=' h-80 justify-center items-center absolute -top-80 left-[30%] w-96  '>
-            <Image src={detailimage5} alt='image' className='ml-36' />
-        </div>)}
-          </div>
+        <div className='flex flex-row gap-10 items-center justify-center'>
+        <Molecule1/>
+        <Molecule2/>
+        <Molecule3/>
+        <CompressedMolecule/>
+        <Molecule5/>
+        </div>
+        
+          
           
          
           
-        </div>
+        
        
       </div>
       

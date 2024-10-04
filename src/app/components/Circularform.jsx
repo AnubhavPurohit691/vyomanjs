@@ -6,7 +6,7 @@ const CircleForm = () => {
   return (
     <div className="flex items-center md:ml-4 md:pt-12 2xl:pt-0 justify-center lg:justify-end xl:justify-center pt-0 md:mr-10 lg:mr-32 xl:ml-[750px]  xl:h-screen">
       {/* Circle container */}
-      <div className="relative md:ml-3 flex h-96 w-96   items-center justify-center rounded-full bg-white shadow-2xl md:h-96 md:w-96 lg:h-96 lg:w-96">
+      <div className="relative md:ml-3 hidden md:flex h-96 w-96   items-center justify-center rounded-full bg-white shadow-2xl md:h-96 md:w-96 lg:h-96 lg:w-96">
         {/* Form inside the circle */}
         <form className="flex  w-3/4 flex-col space-y-2">
           <div>

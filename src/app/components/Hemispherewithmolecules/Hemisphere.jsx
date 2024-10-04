@@ -30,7 +30,7 @@ const RotatingCube = () => {
 
   return (
     <Points ref={pointsRef} positions={positions}>
-      <PointMaterial color="#000000" size={0.003} /> {/* Slightly larger particles */}
+      <PointMaterial color="#000000" size={0.006} /> {/* Slightly larger particles */}
     </Points>
   );
 };

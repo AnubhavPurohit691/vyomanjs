@@ -25,7 +25,7 @@ export default async function Home() {
     <ThemeSwitch/>
     </div> */}
     <Mobilefront/>
-      <div className="mt-[10vh] md:mt-20 lg:mt-[93vh]">
+      <div className="mt-[20vh] md:mt-40 lg:mt-[93vh]">
         <Companydescription />
         <div className="2xl:ml-6">
           <Componentof3particlematter />

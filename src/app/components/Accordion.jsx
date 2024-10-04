@@ -48,7 +48,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="mt-[39rem] md:mt-[55rem] lg:mt-28 lg:pr-24 w-screen pl-10 md:pl-16 md:pr-16 pr-10 lg:pl-24 xl:mt-52 xl:pl-[12rem] xl:pr-[12rem] 2xl:mt-60 2xl:pr-[15rem] 2xl:pl-72">
+    <div className="mt-[42rem] md:mt-[55rem] lg:mt-28 lg:pr-24 w-screen pl-10 md:pl-16 md:pr-16 pr-10 lg:pl-24 xl:mt-52 xl:pl-[12rem] xl:pr-[12rem] 2xl:mt-60 2xl:pr-[15rem] 2xl:pl-72">
       <div className="flex gap-1 p-4 pr-0 pl-0">
         <div className="mt-10 h-3 w-4 md:h-5 md:w-5 xl:mt-9 xl:h-6 xl:w-6 rounded-full bg-black"></div>
         <div className="p-6 md:pb-10 border-b-[1px] border-gray-200 w-full pl-3 pt-7 text-2xl font-light md:text-4xl lg:text-3xl xl:text-4xl">
@@ -106,7 +106,7 @@ const Accordion = () => {
                 <div className="w-full pb-3 text-2xl md:text-3xl lg:text-2xl xl:text-2xl">
                   {item.title}
                 </div>
-                <div className="text-end xl:w-60 xl:ml-[900px] 2xl:w-80 2xl:ml-[1000px]">
+                <div className="text-start xl:w-60 xl:ml-[900px] 2xl:w-80 2xl:ml-[1000px]">
                   {item.description}
                 </div>
                 <div className="h-44 w-44 md:h-64 md:w-64 ml-20 mt-6 flex xl:ml-96 2xl:ml-[30rem] xl:mt-0 xl:mb-10 lg:h-80 lg:w-80 overflow-hidden rounded-full bg-gray-300 p-4">
