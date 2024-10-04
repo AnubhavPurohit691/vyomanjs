@@ -21,7 +21,7 @@ const Profilecarddata = [
     name: 'Jay Dhariwal',
     position: 'Associate Professor',
     link: 'https://www.linkedin.com/in/jaydhariwal/',
-    src: img2,
+    src: img4,
   },
   {
     name: 'GULSHAN KUMAR',
@@ -33,19 +33,19 @@ const Profilecarddata = [
     name: 'Prasannaa Kumar',
     position: 'Project Scientist',
     link: 'https://www.linkedin.com/in/prasannaa-kumar-d-9ab2a1202/',
-    src: img4,
+    src: img6,
   },
   {
     name: 'bavath   ',
     position: 'Project Scientist',
     link: 'https://www.linkedin.com/in/bavath-d-9ab0a5163/',
-    src: img5,
+    src: img2,
   },
   {
     name: 'Saran Raj',
     position: 'Project Assistant',
     link: '#',
-    src: img6,
+    src: img5,
   },
 ];
 
