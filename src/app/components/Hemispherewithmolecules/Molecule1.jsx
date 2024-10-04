@@ -42,7 +42,7 @@ useGLTF.preload('/molecule1.glb');
 
 const Molecule1 = () => {
   return (
-    <Canvas style={{ width: '150px', height: '150px' }} >
+    <Canvas style={{ width: '120px', height: '120px' }} >
       <mesh scale={3}>
         <ambientLight />
         <OrbitControls enableZoom={false} />
