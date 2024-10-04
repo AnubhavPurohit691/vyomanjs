@@ -13,7 +13,7 @@ import image2 from "../assets/svg/particledescription/3.svg"
 import image3 from "../assets/svg/particledescription/4.svg"
 import image4 from "../assets/svg/particledescription/5.svg"
 import image5 from "../assets/svg/particledescription/2.svg"
-
+import scroll from "../assets/svg/scrolldownindicator.svg"
 
 const molecules = [
   <Molecule1 key="molecule1" />,
@@ -66,7 +66,10 @@ const Mobilefront = () => {
             {description[activeIndex]}
             </div>
           </motion.div>
-          {/* <Image src={} alt=''/> */}
+          <div className='h-10 w-10 mt-4'>
+
+          <Image src={scroll} alt='image'/>
+          </div>
         </AnimatePresence>
       </div>
     </div>
