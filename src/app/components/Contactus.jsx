@@ -23,7 +23,7 @@ const Contactus = () => {
       <div className='absolute top-1 -z-20 h-[80vh] hidden md:block '>
         <Loadingcube/>
       </div>
-      <div className="absolute hidden -z-20 pt-40 mb-10  pl-52 w-screen md:right-40 md:top-6 lg:right-80 lg:top-0 2xl:right-56">
+      <div className="absolute -top-60 -left-52 -z-20 pt-40 mb-10  pl-52 w-screen md:right-40 md:-top-60 lg:right-80 lg:top-0 2xl:right-56">
         {/* <Fullsphere /> */}
         <FooterCube/>
       </div>
