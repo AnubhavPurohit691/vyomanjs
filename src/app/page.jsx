@@ -1,3 +1,4 @@
+'use client'
 import Accordion from './components/Accordion';
 import Companydescription from './components/CompanyDescription';
 import Componentof3particlematter from './components/Component3particle';
@@ -10,10 +11,13 @@ import Footer from "./components/common/footer/Footer";
 import Mobilefront from './components/mobilefront';
 import { Providers } from './Themeprovide';
 import ThemeSwitch from './Theme';
+import Overlay from './Overlay';
 
 export default async function Home() {
+
   return (
     <>
+    
     
     <div>
     <Header />
