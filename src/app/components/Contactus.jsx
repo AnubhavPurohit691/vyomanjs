@@ -28,7 +28,7 @@ const Contactus = () => {
         <FooterCube/>
       </div>
       
-      <div className="absolute  lg:left-32 lg:bottom-6 xl:left-80 xl:top-72  top-32 left-20 md:flex flex-col items-center space-y-10 2xl:top-[22rem] 2xl:left-96">
+      <div className="absolute  lg:left-32 lg:bottom-6 xl:left-80 xl:top-52  top-32 left-20 md:flex flex-col items-center space-y-10 2xl:top-[22rem] 2xl:left-96">
       <div className="font-bold hidden lg:block   hover:underline text-center md:text-4xl lg:text-3xl">
       CONTACT US
   </div>

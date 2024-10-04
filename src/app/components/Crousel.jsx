@@ -52,7 +52,7 @@ export default function ResponsiveCarousel() {
         </div>
 
         {/* Previous image */}
-        <div className="absolute -left-80 top-20 hidden h-1/2 w-1/2 overflow-hidden rounded-full opacity-30 lg:block">
+        <div className="absolute -left-80 top-20 hidden  h-1/2 w-1/2 overflow-hidden rounded-full opacity-30 lg:block">
           <Image
             src={carouselItems[previousIndex].imageSrc}
             alt={`Previous study at ${carouselItems[previousIndex].location}`}
@@ -62,7 +62,7 @@ export default function ResponsiveCarousel() {
         </div>
 
         {/* Centered location text */}
-        <div className="absolute inset-0 top-[30rem] right-[7rem] flex items-center justify-center">
+        <div className="absolute inset-0 top-20 left-0 md:top-96 md:-left-10 lg:top-[30rem] lg:right-[7rem] flex items-center justify-center">
           <p className="text-base font-semibold sm:text-sm md:text-xl lg:text-start lg:text-xl xl:text-2xl text-center">
             {carouselItems[activeIndex].location}
           </p>
