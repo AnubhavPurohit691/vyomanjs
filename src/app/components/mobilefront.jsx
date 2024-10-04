@@ -14,6 +14,7 @@ import image3 from "../assets/svg/particledescription/4.svg"
 import image4 from "../assets/svg/particledescription/5.svg"
 import image5 from "../assets/svg/particledescription/2.svg"
 
+
 const molecules = [
   <Molecule1 key="molecule1" />,
   <Molecule2 key="molecule2" />,
@@ -47,16 +48,16 @@ const Mobilefront = () => {
       <Loadingcube />
       
       {/* Animated carousel for molecules */}
-      <div className="flex z-30 items-center  justify-center sm:ml-20 md:ml-40 absolute text-center top-4 flex-col h-screen text-xl">
+      <div className="flex z-30 items-center  justify-center sm:ml-20 md:ml-40 absolute text-center top-0 flex-col h-screen text-xl">
         <AnimatePresence>
           <motion.div
             key={activeIndex}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.8 }}
           >
-            <div className='ml-20 justify-center' key={activeIndex}>
+            <div className='ml-32 justify-center' key={activeIndex}>
 
             {molecules[activeIndex]}
             </div>
@@ -65,6 +66,7 @@ const Mobilefront = () => {
             {description[activeIndex]}
             </div>
           </motion.div>
+          {/* <Image src={} alt=''/> */}
         </AnimatePresence>
       </div>
     </div>
