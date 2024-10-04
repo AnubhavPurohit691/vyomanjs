@@ -24,8 +24,8 @@ const Profilecarddata = [
     src: img4,
   },
   {
-    name: 'GULSHAN KUMAR',
-    position: ' Senior Research Scholar',
+    name: ' GULSHAN KUMAR',
+    position: 'Sr.Research Scholar',
     link: 'https://www.linkedin.com/in/gulshan-kumar-436642156/',
     src: img3,
   },
@@ -54,11 +54,11 @@ const ProfileCard = ({ name, position, link, src }) => {
     <div className="flex h-64 mb-0 flex-col justify-between border-[1px] border-gray-200 md:h-80 lg:h-72 xl:h-[400px]">
       {/* Name and Position */}
       <div className="flex justify-around gap-3 border-b-2 border-gray-200 p-4 pr-0 pl-3 sm:gap-3 sm:pl-5 md:gap-8 md:pl-6 lg:justify-around lg:gap-4 lg:pl-4 xl:gap-8 2xl:gap-20 2xl:pl-12">
-        <h2 className="text-xs  md:pl-0 font-bold lg:text-sm xl:text-base xl:w-20">
+        <h2 className="text-xs  md:pl-0 font-semibold lg:text-sm xl:text-base xl:w-20">
           {name.toUpperCase()}
         </h2>
         <p className="ml-4 text-xs text-gray-500 sm:ml-0 lg:text-sm xl:text-base">
-          {position.toUpperCase()}
+          {position}
         </p>
         <div className="md:pr-3">
           <a
