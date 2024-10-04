@@ -7,7 +7,7 @@ const Headerimage = () => {
   return (
     <div>
       <div className="absolute z-30 h-10 hidden md:block">
-        <Image src={Subtract} alt="image" width={4000} />
+        <Image src={Subtract} alt="image" width={3900} />
       </div>
     </div>
   );

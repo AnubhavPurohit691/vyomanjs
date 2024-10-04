@@ -18,7 +18,7 @@ import Molecule2 from './Hemispherewithmolecules/Molecule2';
 import Molecule3 from './Hemispherewithmolecules/Molecule3';
 import CompressedMolecule from './Hemispherewithmolecules/Molecule4';
 import Molecule5 from './Hemispherewithmolecules/Molecule5';
-
+import line from "../assets/svg/Line 1.svg"
 const Hemispherewithmolecules = () => {
  const[description1,setdescription1]=useState(false)
  const[description2,setdescription2]=useState(false)
@@ -47,16 +47,22 @@ const Hemispherewithmolecules = () => {
         className={`absolute -top-20 hidden   lg:block  bg-gradient-to-b from-gray-100 via-gray-100 to-white  md:h-[100%] md:w-screen lg:h-[100vh] lg:w-full`}
       >
         <Hemisphere />
+        {/* <div className=' ml-[700px] absolute top-[83%] left-28 h-40 z-10'>
+      <Image src={line} alt='image'/>
+      </div> */}
       </div>
+      
       <div
-        className={`absolute h-20 hidden lg:block w-20 lg:w-full z-20 md:left-[32%] md:top-[20%] lg:left-[0%] xl:left-[0%] lg:top-[600px] xl:top-[600px] 2xl:top-[700px] 2xl:pl-40`} 
+        className={`absolute h-20 hidden lg:block w-20 lg:w-full z-20 md:left-[32%] md:top-[20%] lg:left-[0%] xl:left-[0%] lg:top-[550px] xl:top-[600px] 2xl:top-[700px] 2xl:pl-40`} 
       >
         <div className='flex flex-row gap-10 items-center justify-center'>
         <Molecule1/>
         <Molecule2/>
         <Molecule3/>
         <CompressedMolecule/>
+        <div className=''>
         <Molecule5/>
+        </div>
         </div>
         
           

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="mt-20 md:mt-0 w-[100%] bg-black p-8 sm:w-full md:w-[100%]  lg:w-[100%] xl:mt-10 2xl:mt-96 xl:w-full ">
+    <div className="mt-20 md:mt-0 w-[100%] bg-black p-8 sm:w-full md:w-[100%]  lg:w-[100%] xl:mt-20 2xl:mt-96 xl:w-full ">
       <div className="flex flex-col md:flex-row items-start justify-between lg:flex-row lg:items-start">
         {/* Navigation Links */}
         <div className="flex flex-col gap-4 text-left md:flex-row lg:flex-row lg:gap-8 lg:pl-10 lg:text-left">
