@@ -53,7 +53,7 @@ const Hemispherewithmolecules = () => {
       </div>
       
       <div
-        className={`absolute h-20 hidden lg:block w-20 lg:w-full z-20 md:left-[32%] md:top-[20%] lg:left-[0%] xl:left-[0%] lg:top-[550px] xl:top-[600px] 2xl:top-[700px] 2xl:pl-40`} 
+        className={`absolute h-20 hidden lg:block w-20 lg:w-full z-20 md:left-[32%] md:top-[20%] lg:left-[0%] xl:left-[0%] lg:top-[550px] xl:top-[500px] 2xl:top-[700px] 2xl:pl-40`} 
       >
         <div className='flex flex-row gap-10 items-center justify-center'>
         <Molecule1/>
