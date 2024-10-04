@@ -66,7 +66,7 @@ const Mobilefront = () => {
             {description[activeIndex]}
             </div>
           </motion.div>
-          <div className='h-10 w-10 mt-4'>
+          <div className='h-10 w-10 mt-8'>
 
           <Image src={scroll} alt='image'/>
           </div>
