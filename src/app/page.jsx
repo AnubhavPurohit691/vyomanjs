@@ -48,6 +48,7 @@ export default async function Home() {
       <div className="mt-40 md:mt-10 md:ml-20 2xl:mt-20">
         <ResponsiveCarousel />
       </div>
+      
       {/* </Providers> */}
       <div className="2xl:ml-36 2xl:pl-10">
         <ProfileCardList />
