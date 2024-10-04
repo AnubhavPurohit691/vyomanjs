@@ -56,11 +56,11 @@ const Mobilefront = () => {
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.8 }}
           >
-            <div className='ml-20 justify-center'>
+            <div className='ml-20 justify-center' key={activeIndex}>
 
             {molecules[activeIndex]}
             </div>
-            <div className='justify-center px-4'>
+            <div className='justify-center px-4' key={activeIndex}>
 
             {description[activeIndex]}
             </div>
