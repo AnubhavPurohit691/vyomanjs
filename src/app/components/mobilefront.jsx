@@ -7,6 +7,12 @@ import Molecule2 from './Hemispherewithmolecules/Molecule2';
 import Molecule3 from './Hemispherewithmolecules/Molecule3';
 import Molecule5 from './Hemispherewithmolecules/Molecule5';
 import CompressedMolecule from './Hemispherewithmolecules/Molecule4';
+import Image from 'next/image';
+import image1 from "../assets/svg/particledescription/2.svg"
+import image2 from "../assets/svg/particledescription/3.svg"
+import image3 from "../assets/svg/particledescription/4.svg"
+import image4 from "../assets/svg/particledescription/5.svg"
+import image5 from "../assets/svg/particledescription/2.svg"
 
 const molecules = [
   <Molecule1 key="molecule1" />,
@@ -15,6 +21,13 @@ const molecules = [
   <CompressedMolecule key="compressedMolecule" />,
   <Molecule5 key="molecule5" />,
 ];
+const description = [
+  <Image src={image1} alt='image'/>,
+  <Image src={image2} alt='image'/>,
+  <Image src={image3} alt='image'/>,
+  <Image src={image4} alt='image'/>,
+  <Image src={image5} alt='image'/>,
+]
 
 const Mobilefront = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -34,7 +47,7 @@ const Mobilefront = () => {
       <Loadingcube />
       
       {/* Animated carousel for molecules */}
-      <div className="flex z-30 items-center ml-20 justify-center sm:ml-20 md:ml-40 absolute text-center top-10 flex-col h-screen text-xl">
+      <div className="flex z-30 items-center  justify-center sm:ml-20 md:ml-40 absolute text-center top-8 flex-col h-screen text-xl">
         <AnimatePresence>
           <motion.div
             key={activeIndex}
@@ -43,7 +56,14 @@ const Mobilefront = () => {
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.8 }}
           >
+            <div className='ml-20 justify-center'>
+
             {molecules[activeIndex]}
+            </div>
+            <div className='justify-center px-4'>
+
+            {description[activeIndex]}
+            </div>
           </motion.div>
         </AnimatePresence>
       </div>

@@ -34,7 +34,6 @@ export default function ContactForm() {
 
   return (
     <div className="max-w-md mx-auto my-10 p-6 bg-white shadow-md rounded-md">
-      <h2 className="text-2xl font-bold text-black mb-6">Contact Us</h2>
       {submitted ? (
         <p className="text-lg text-black">
           Thank you for contacting us! We'll get back to you soon.
