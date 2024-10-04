@@ -34,7 +34,7 @@ const Mobilefront = () => {
       <Loadingcube />
       
       {/* Animated carousel for molecules */}
-      <div className="flex z-30 items-center ml-10 justify-center sm:ml-20 md:ml-40 absolute text-center top-10 flex-col h-screen text-xl">
+      <div className="flex z-30 items-center ml-20 justify-center sm:ml-20 md:ml-40 absolute text-center top-10 flex-col h-screen text-xl">
         <AnimatePresence>
           <motion.div
             key={activeIndex}
