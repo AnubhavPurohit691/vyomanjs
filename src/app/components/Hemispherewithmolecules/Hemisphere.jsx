@@ -37,7 +37,7 @@ const RotatingCube = () => {
 
 const FullScreenCube = () => {
   return (
-    <Canvas style={{ height: '100vh', width: '90vw' }}>
+    <Canvas style={{ height: '100vh', width: '100vw' }}>
       <ambientLight />
       <RotatingCube />
       <OrbitControls enableZoom={false} /> {/* Allow rotation and zoom */}
