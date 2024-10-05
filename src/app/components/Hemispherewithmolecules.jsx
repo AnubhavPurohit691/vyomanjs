@@ -42,7 +42,6 @@ const Hemispherewithmolecules = () => {
  }
   return (
     <div className="relative ">
-     
       <div
         className={`absolute -top-20 hidden   lg:block  bg-gradient-to-b from-gray-300 via-gray-100 to-white  md:h-[100%] md:w-screen lg:h-[100vh] lg:w-full`}
       >
