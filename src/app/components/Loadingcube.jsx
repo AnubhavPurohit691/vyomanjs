@@ -38,7 +38,7 @@ const RotatingCube = () => {
 
 const Loadingcube = () => {
   return (
-    <Canvas style={{ height: '100vh', width: 'vw' }}>
+    <Canvas style={{ height: '100vh', width: '95vw' }}>
       <ambientLight />
       <RotatingCube />
        {/* Allow rotation and zoom */}
